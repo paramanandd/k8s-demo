@@ -1,0 +1,16 @@
+{
+ "AWSEBDockerrunVersion": "1",
+ "Authentication": {
+   "Bucket": "jellyfish-docer-cred",
+   "Key": ".dockercfg"
+ },
+ "Image": {
+    "Name": "REPO_NAME:GIT_COMMIT_BUILD_NUMBER",
+    "Update": "true"
+  },
+ "Ports": [
+   {
+     "ContainerPort": "80"
+   }
+ ]
+}
