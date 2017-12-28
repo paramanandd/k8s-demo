@@ -1,0 +1,14 @@
+{
+    "name": "divyaraj/sample-php-docker-app",
+    "require-dev": {
+        "phpunit/phpunit": "5.0",
+        "codeception/codeception": "^2.3"
+    },
+    "authors": [
+        {
+            "name": "divya",
+            "email": "divya.rajwani@yahoo.com"
+        }
+    ],
+    "require": {}
+}

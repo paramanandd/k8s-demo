@@ -1,0 +1,12 @@
+<?php
+class OutputTest extends PHPUnit_Framework_TestCase
+{
+    //this test will pass. 
+    public function testExpectFooActualFoo()
+    {
+        $this->expectOutputString('helloworld');
+        print 'helloworld';
+    }
+
+   
+}
