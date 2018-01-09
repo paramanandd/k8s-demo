@@ -1,2 +1,2 @@
 ## Sample PHP App 
-This is sample php app for demo purposes
+This is sample php app for demo purpose
